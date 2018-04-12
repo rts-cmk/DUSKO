@@ -1,0 +1,11 @@
+TYPER
+
+Primær type: Courier New, regular (400)
+Sekundær type: Verdana, bold (700)/black (900)
+
+
+FARVER
+
+Baggrund: #FFFFFF
+Forgrund: #000000
+Kolonne: #484848
