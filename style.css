@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+	--fontFace: Verdana, sans-serif;
+}
+
+header {
+	height: 92px;
+	grid-area: header;
+} 
+
+header > button {
+	font-family: var(--fontFace);
+	font-weight: 800;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-color: #000000;
+	grid-area: header; 
+}
+	
+header > nav > .navbar {
+	list-style: none;
+	padding-top: 78px;
+	padding-bottom: 50px;
+	padding-left: 78px;
+	grid-area: header;
+}
+
+header > nav > .navbar > li {
+	display: inline-block;
+	padding-right: 70px;
+	grid-area: header;
+}
+
+header > nav > .navbar > li > a {
+	text-decoration: none;
+	font-family: Verdana;
+	font-weight: 800;
+	color: #000000;
+	grid-area: header;
+}
+
+section > figure {
+	margin: 0;
+	padding-top: 65px;
+	grid-area: image;
+} 
+
+section > article {
+	display: grid;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 820px;
+	float: right;
+	background-color: #484848;
+	grid-area: text;
+}
+
+section > article > h1 {
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 45px;
+	grid-area: image;
+}
+
+section > article > p {
+	color: #FFFFFF;
+	font-family: Courier New;
+	padding-left: 252px;
+	padding-right: 60px;
+	grid-area: text;
+}
+
+section .gridcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1000px;
+	grid-area: gallery;
+}
+
+section > .gridcontainer > h2 {
+	font-family: Verdana;
+	font-size: 45px;
+	grid-rea: gallery;
+}
+
+body {
+	grid-template-rows: 1075px 170px 672px;
+	grid-template-columns: 96px 55px 300px 557px 994px;
+	grid-template-areas: 
+		"header header header"
+		"header header header"
+		"image image text"
+		"image image text"
+		"gallery space space";
+}
