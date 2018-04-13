@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	display: grid;
-	grid-template-rows: 162px;
+	grid-template-rows: 94px;
 	background-color: #FFFFFF;
 	grid-template-columns: auto;
 }
@@ -13,16 +13,29 @@ body {
 ul {
 	display: grid;
 	grid-template-columns: 58px 52px 55px 60px 70px 60px 95px auto;
+	align-content: center;
 }
 
 li {
 	list-style: none;
+	text-align:center;
 }
 
 .menu_home {
+grid-column-start:1;
 }
 
-.menu_shop  
+.menu_shop{
+grid-column-start:3;
+}
+
+.menu_about{
+grid-column-start:5;
+}
+
+.menu_journal{
+grid-column-start:7;
+}
 
 
 a {
