@@ -1,7 +1,7 @@
 TYPER
 
-Primær type: Courier New, regular (400)
-Sekundær type: Verdana, bold (700)/black (900)
+Primï¿½r type: Courier New, regular (400)
+Sekundï¿½r type: Verdana, bold (700)/black (900)
 
 
 FARVER
