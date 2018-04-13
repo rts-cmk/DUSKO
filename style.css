@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*--------------- NAV ---------------*/
+
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+/*--------------- ASIDE ---------------*/
+
+aside {
+    background-color: rgb(74, 74, 74);
+    padding: 200px;
+    float: right;
+    margin-top: -1%;
+    height: 120%
+    }
+
+/*--------------- PICTURES ---------------*/
+
+.main_picture img {
+    width: 60%;
+    margin: 30px;
+}
+
+.selection h1 {
+    margin: 10px;
+}
+
+.selection img {
+    width: 20%;
+    margin: 10px;
+}
