@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+	margin: 0;
+	display: grid;
+	grid-template-rows: 162px;
+	background-color: #FFFFFF;
+	grid-template-columns: auto;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 58px 52px 55px 60px 70px 60px 95px auto;
+}
+
+li {
+	list-style: none;
+}
+
+.menu_home {
+}
+
+.menu_shop  
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
