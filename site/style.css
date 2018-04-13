@@ -6,14 +6,40 @@ body {
 h1, h2, a {
   font-family: Verdana;
   font-weight: 700;
-
 }
 p {
   font-family: Courier New;
   font-weight: 400;
 }
+a {
+  font-size: 14px;
+}
 /*Layout---*/
 #wrapper {
+  width: 100%;
   display: grid;
-
+  grid-template-rows: 40px, 100px, 440px, 420px;
+  grid-template-columns: 560px, 90px, 350px;
+  grid-template-areas:
+    "head head head"
+    "head head head"
+    "main main main"
+    "main main main"
+}
+.menu {
+  grid-area: head;
+}
+.content {
+  grid-area: main;
+}
+.gallery {
+  grid-area: main;
+}
+/*module--*/
+.menu ul, li {
+  list-style-type: none;
+  display: flex;
+}
+.menu a {
+  grid-area: 2, 3;
 }
