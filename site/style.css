@@ -1,0 +1,19 @@
+/*Base-----*/
+body {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, a {
+  font-family: Verdana;
+  font-weight: 700;
+
+}
+p {
+  font-family: Courier New;
+  font-weight: 400;
+}
+/*Layout---*/
+#wrapper {
+  display: grid;
+
+}
