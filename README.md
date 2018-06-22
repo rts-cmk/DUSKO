@@ -16,3 +16,6 @@ Siden skal sættes op med et CSS grid.
 * Lav en fork af dette repository og klon det derefter til din egen computer.
 * Lav ofte og mange commits/push med dine ændringer
 * Når du vil aflevere, skal du lave en pull-request til dette repository fra din egen fork.
+
+## Weekendarbejde
+* Du skal klippe hæk (igen)
